@@ -17,7 +17,7 @@ export default function MosqueClock({
     "Bienvenue à la mosquée",
     "Rappel: Cours de Coran après la prière d'Asr",
     "Vendredi: Khutbah à 13h30",
-    "Ramadan commence le 10 mars",
+    "Ramadan commence le 1 mars",
   ],
 }: MosqueClockProps) {
   const [currentTime, setCurrentTime] = useState(new Date());
